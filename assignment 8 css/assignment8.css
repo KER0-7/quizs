@@ -1,0 +1,143 @@
+
+#resume{
+    padding: 60px 80px;
+    
+    
+}
+
+
+.heading{
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+    font-size: larger;
+}
+
+.resume-container{
+    display: flex;
+    justify-content: space-between; 
+    padding: 50px 110px;
+    display: flex;
+
+}
+.left,.right{
+    width: 45%;
+}
+
+.heading-resume-head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.heading-resume-head::after{
+    position: absolute;
+    content: "summary";
+    opacity: 0.06;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+h4{
+    font-size: larger;
+}
+h5{
+    font-size: larger;
+}
+
+.card-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    margin-bottom: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    transition: box-shadow 0.3s ease;
+}
+
+.date{
+    background-color: #01c03d;
+    color: white;
+    display: inline-block;
+}
+span{
+    color: red;
+}
+
+
+.skills-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.sill-left{
+    width: 100%;
+    padding: 20px;
+}
+
+.skill-right{
+width: 100%;
+padding:20px;
+;
+}
+
+.headingg{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;}
+
+    .heading-portfolio-head::after{
+    position: absolute;
+    content: "portofolio";
+    opacity: 0.06;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+.heading-portfolio-head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+    .nav{display: flex;
+    justify-content: center;
+    }
+
+.bar{
+    width: 80%;
+    height: 12px;
+    background-color: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.bar-line{
+    height: 100%;
+    background-color: #00c897;
+    width: 0;
+    border-radius: 10px;
+}
+.images{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 7px;
+    width: 80%;
+    grid-auto-flow: dense;
+    margin: 0 auto;
+
+}
+
+.images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+
+}
+
+.larg{
+    grid-row: span 2;
+}
